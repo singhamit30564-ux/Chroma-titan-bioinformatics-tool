@@ -1,4 +1,5 @@
-# Chroma-titan-bioinformatics-tool
+#
+PLEASE DON'T USE IT IT'S TRASH Chroma-titan-bioinformatics-tool
 # 🧬 Chroma Titan Bioinformatics Tool
 
 **50+ Hyper Advanced Bioinformatics Suite**  
