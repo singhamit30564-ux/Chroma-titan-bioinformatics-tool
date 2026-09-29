@@ -1,0 +1,28 @@
+# Python caches and build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# virtualenvs
+.venv/
+venv/
+
+# editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# streamlit / notebook scratch
+.streamlit/secrets.toml
+.ipynb_checkpoints/
+
+# tool outputs are never committed
+*.tmp
+*.log

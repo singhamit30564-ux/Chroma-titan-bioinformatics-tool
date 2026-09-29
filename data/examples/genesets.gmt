@@ -1,0 +1,4 @@
+REPLICATION	pathway_1	geneA	geneC	viralRep	geneA	geneB
+CAPSID_ASSEMBLY	pathway_2	viralCap	viralEnv
+LNC_REGIONS	pathway_3	geneD	geneE	viralEnv
+HIGH_EXPRESSED	pathway_4	geneA	geneB	geneC	geneD

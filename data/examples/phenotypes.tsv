@@ -1,0 +1,7 @@
+sample	group	yield	resistance_score	infected	biomass	treatment
+sample_A	control	6.871	6	1	1.942	A
+sample_B	control	5.432	24	1	2.739	A
+sample_C	control	5.652	42	0	2.245	A
+sample_D	treated	8.543	75	1	2.037	B
+sample_E	treated	8.611	43	1	2.058	B
+sample_F	treated	10.888	89	0	2.214	B
