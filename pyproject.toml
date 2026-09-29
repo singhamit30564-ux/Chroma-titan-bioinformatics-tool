@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chroma-titan"
+version = "6.0.0"
+description = "A Galaxy-style bioinformatics tool panel (710 tools) that runs in the browser or from the CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Amit Singh" }]
+keywords = ["galaxy", "bioinformatics", "streamlit", "tools", "genomics"]
+dependencies = [
+    "streamlit>=1.30",
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+chroma-titan = "chroma_titan.cli:main"
+
+[tool.setuptools]
+packages = ["chroma_titan", "chroma_titan.core", "chroma_titan.tools"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: executes every registered tool (or the full CLI check)"]

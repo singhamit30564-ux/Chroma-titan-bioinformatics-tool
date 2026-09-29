@@ -1,0 +1,6 @@
+# Runtime dependencies of the Chroma Titan tool panel.
+# Everything is pure Python / numpy - no Galaxy job runner, no samtools, no scipy.
+streamlit>=1.30
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8

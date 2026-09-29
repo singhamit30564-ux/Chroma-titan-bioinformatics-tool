@@ -1,0 +1,26 @@
+##obo-format=owl/functional
+ontology: chroma-phenotype-example
+
+[Term]
+id: GO:0006260
+name: DNA replication
+is_a: GO:0006259 ! DNA metabolic process
+
+[Term]
+id: GO:0006259
+name: DNA metabolic process
+is_a: GO:0044238 ! cellular metabolic process
+
+[Term]
+id: GO:0019039
+name: viral capsid assembly
+is_a: GO:0019031 ! virion maturation
+
+[Term]
+id: GO:0019031
+name: virion maturation
+
+[Term]
+id: GO:0003677
+name: DNA binding
+is_a: GO:0003674 ! molecular_function

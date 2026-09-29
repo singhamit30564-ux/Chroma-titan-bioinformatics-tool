@@ -1,0 +1,2 @@
+chrV	6000	chromosome V (synthetic)
+chrM	3200	chromosome M (synthetic)
